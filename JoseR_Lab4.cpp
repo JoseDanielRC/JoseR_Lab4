@@ -32,6 +32,12 @@ int main(){
                 }
 	for(int i=0;i<ancho;i++){
               matriz[0][i]=fila[i];
+	      if(fila[i]=='.'){
+		      contlibre++;
+	      }
+	      else{
+		      contramp++;
+	      }
                 }
 	for(int i=1;i<largo;i++){
 		for(int j=0;j<ancho;j++){
@@ -58,5 +64,5 @@ int main(){
                	 }
          }
 	imprimir(matriz,largo,ancho);
-	cout<<"libres: "<<contlibre<<"trampas: "<<contramp<<endl;
+	cout<<"libres: "<<contlibre<<" trampas: "<<contramp<<endl;
 }
