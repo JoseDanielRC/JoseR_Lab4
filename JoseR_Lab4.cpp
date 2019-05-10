@@ -6,8 +6,8 @@ using std::cin;
 using std::endl;
 using std::string;
 using std::stringstream;
-void impirmir(char**matriz,int largo,int ancho){
-	for(int i=0;i<largo;i++){
+void imprimir(char**matriz,int largo,int ancho){
+for(int i=0;i<largo;i++){
 		for(int j=0;j<ancho;j++){
 			cout<<matriz[i][j]<<" ";
 		}
@@ -50,5 +50,5 @@ int main(){
 		filanterior.str()="";	
                	 }
          }
-	impirimir(matriz,largo,ancho);
+	imprimir(matriz,largo,ancho);
 }
