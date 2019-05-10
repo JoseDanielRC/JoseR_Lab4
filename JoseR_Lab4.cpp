@@ -29,7 +29,7 @@ int main(){
             	if(filanterior.str()=="^^."&&filanterior.str()==".^^"&&filanterior.str()=="^.."&&filanterior.str()=="..^"){
 			matriz[i][j]='^';
 			}else{
-				matriz[][]='.';
+				matriz[i][j]='.';
 			}	
                	 }
          }
