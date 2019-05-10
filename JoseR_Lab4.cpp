@@ -58,5 +58,5 @@ int main(){
                	 }
          }
 	imprimir(matriz,largo,ancho);
-	cout<<"libres: "<<contlibre<<"trampas: "<<filanterior<<endl;
+	cout<<"libres: "<<contlibre<<"trampas: "<<contramp<<endl;
 }
