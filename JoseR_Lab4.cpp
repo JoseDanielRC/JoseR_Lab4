@@ -64,5 +64,16 @@ int main(){
                	 }
          }
 	imprimir(matriz,largo,ancho);
+	 // liberar memoria
+        for(int i=0;i<ancho;i++){
+                delete[]matriz[i];
+                matriz[i]=NULL;
+                }
+        //liberar ultimo vector
+        if(matriz!=NULL){
+                delete[]matriz;
+                matriz=NULL;
+                }
+
 	cout<<"libres: "<<contlibre<<" trampas: "<<contramp<<endl;
 }
